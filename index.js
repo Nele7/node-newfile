@@ -4,6 +4,7 @@ const FsService = require('./fs')
 
 // 读取配置信息
 // ======================================
+// 生成路由需要在路由配置添加注释,具体请看example
 const options = {
   pages: ['home/a', 'home/b', 'about/a'], // 目标要生成文件的路径 | Array 必填项
   pagePrefix: 'src/views', // 目标文件前缀 如 src/views/...  默认为src/views | string
